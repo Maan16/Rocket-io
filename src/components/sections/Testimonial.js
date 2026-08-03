@@ -42,7 +42,7 @@ const Testimonial = ({
   const sectionHeader = {
     title: "Customer testimonials",
     paragraph:
-      "Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.",
+      "Hear directly from our customers as they share how Rocket-io has transformed their operations. These concise testimonials showcase the tangible benefits and satisfaction our software solutions bring, empowering businesses to thrive in the digital age.",
   };
 
   return (
@@ -58,20 +58,17 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Our experience with Rocket-io has been nothing short of exceptional. Their software solutions have seamlessly integrated into our complex systems. The collaboration with their team was insightful, and they took the time to truly understand our unique needs.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Roman Level
+                    Rob Harper
                   </span>
-                  <span className="text-color-low"> / </span>
+                  {/* <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -80,20 +77,17 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Our company has been a long-time client of Rocket-io, and the partnership has been incredibly fruitful. They consistently delivers high-quality software solutions that have played a pivotal role in our growth and success.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Diana Rynzhuk
+                    Sarah Bodycomb
                   </span>
-                  <span className="text-color-low"> / </span>
+                  {/* <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -102,20 +96,17 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — I can't thank Rocket-io enough for the incredible software that has transformed the way we manage our inventory. The user-friendly interface and robust features have made our day-to-day operations a breeze. What truly sets them apart is their exceptional customer service. Anytime we've had a question or needed assistance, the support team has been quick to respond and incredibly helpful.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
                     Diana Rynzhuk
                   </span>
-                  <span className="text-color-low"> / </span>
+                  {/* <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">AppName</a>
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>

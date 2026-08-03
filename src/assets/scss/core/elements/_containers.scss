@@ -19,12 +19,13 @@
 .head{
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: center;
 	@media screen and (min-width: 992px) {
 		background-image: url('../../../images/Rocketio.png');
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: contain;
+		justify-content: flex-start;
 	  }
 	
 }

@@ -27,6 +27,13 @@
 	padding-top: $footer-inner--padding-v * 0.5;
 }
 
+.middle{
+	.sections{
+		background-color: #ffff !important;
+		padding: 10px;
+	}
+}
+
 .footer-blocks {
 	display: flex;
 	flex-wrap: wrap;

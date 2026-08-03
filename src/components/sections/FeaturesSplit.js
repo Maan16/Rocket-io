@@ -73,10 +73,10 @@ const FeaturesSplit = ({
                 <p>
                   Want help? <br />
                   Have a question to ask? <br /> We’d love to answer and have
-                  you on board our rocket ship. Send out an email at <span style={{fontWeight:"bolder", color:"#db6424"}}>ahmed@rocket-io.com</span> and one of our astronauts will get
+                  you on board our rocket ship. Send out an email at <span style={{fontWeight:"bolder", color:"#db6424"}}>services@rocket-io.com</span> and one of our astronauts will get
                   back to you!
                 </p>
-                <p className="m-0">Follow us on our socials</p>
+                {/* <p className="m-0">Follow us on our socials</p>
                 <div
                   style={{
                     display: "flex",
@@ -127,7 +127,7 @@ const FeaturesSplit = ({
                       </svg>
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div
                 className={classNames(

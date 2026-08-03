@@ -2,18 +2,18 @@
 
 // Color
 $link--color: (
-	link: 								get-color(basic, 1),
-	link-hover: 						get-color(basic, 2),
-	header-link: 						get-color(basic, 1),
-	header-link-hover: 					get-color(basic, 2),
-	header-link-mobile: 				get-color(basic, 1),
-	header-link-mobile-hover: 			get-color(basic, 2),
-	footer-link: 						get-color(basic, 1),
-	footer-link-hover: 					get-color(basic, 2),
-	footer-block-link: 					get-color(basic, 1),
-	footer-block-link-hover: 			get-color(basic, 2),
-	button-link: 						get-color(basic, 1),
-	button-link-hover: 					get-color(basic, 2),
+	link: 								get-color(light, 1),
+	link-hover: 						get-color(basic, 3),
+	header-link: 						get-color(basic, 4),
+	header-link-hover: 					get-color(basic, 3),
+	header-link-mobile: 				get-color(basic, 4),
+	header-link-mobile-hover: 			get-color(basic, 3),
+	footer-link: 						get-color(basic, 4),
+	footer-link-hover: 					get-color(basic, 3),
+	footer-block-link: 					get-color(basic, 4),
+	footer-block-link-hover: 			get-color(basic, 3),
+	button-link: 						get-color(basic, 4),
+	button-link-hover: 					get-color(basic, 3),
 	func-link: 							null,
 	func-link-hover: 					null,	
 	// ↓ Inverted colors
@@ -34,7 +34,7 @@ $link--color: (
 // Font-weight
 $link--weight: (
 	link: 				null,
-	header-link:		500,
+	header-link:		600,
 	footer-link:		null,
 	footer-block-link:	null,
 	button-link:		null

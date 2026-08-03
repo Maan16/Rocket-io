@@ -11,6 +11,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults,
 };
+
 const FeaturesTiles = ({
   className,
   topOuterDivider,
@@ -43,17 +44,17 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: "Services We offer",
+    title: "Services We Offer",
     paragraph:
-      "From Website Design, Quality Assurance or developing a Point of Sale System, Rocket.io has both the track record and in-house ability to support your business. We create wonderful digital experiences that drive business.",
+      "Rocket.io brings you a galaxy of services, from crafting awe-inspiring websites to developing cutting-edge Point of Sale Systems. Our mission is to deliver digital experiences that elevate your business to new heights.",
   };
 
   return (
     <section {...props} className={outerClasses}>
-      <div className="">
+      <div className="container">
         <div className={innerClasses}>
-          <div style={{ padding: "0px 10% 0px 10%" }}>
-            <SectionHeader data={sectionHeader} className="center-content" />
+          <div>
+            <SectionHeader data={sectionHeader} className="center-content m-10" />
           </div>
           <div className={tilesClasses}>
             <div
@@ -62,7 +63,8 @@ const FeaturesTiles = ({
               style={{
                 background: "#ffff",
                 boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
-                margin: "16px 16px",
+                margin: "10px",
+                borderRadius: "20px",
               }}
             >
               <div className="tiles-item-inner">
@@ -77,12 +79,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Point Of Sale System (POS)</h4>
+                  <h4 className="mt-10 mb-12">Point Of Sale System (POS)</h4>
                   <p className="m-0 text-sm">
-                    Industry approved and battle tested POS systems customized
-                    to your needs just how you would like it. Allowing you to
-                    have total traceability, increase operational performance
-                    and be on top of your stocking schedules. Always!
+                    Embark on a journey with our tailor-made POS systems,
+                    ensuring traceability, operational excellence, and timely
+                    inventory management. Always stay a step ahead!
                   </p>
                 </div>
               </div>
@@ -94,7 +95,8 @@ const FeaturesTiles = ({
               style={{
                 background: "#ffff",
                 boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
-                margin: "16px 16px",
+                margin: "10px",
+                borderRadius: "20px",
               }}
             >
               <div className="tiles-item-inner">
@@ -109,13 +111,12 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Web Development</h4>
+                  <h4 className="mt-10 mb-12">Web Development</h4>
                   <p className="m-0 text-sm">
-                    A sublime web experience, paired with the best of class
-                    performance and visual asthetics out web designers promise
-                    to deliver an out of the world experience for yout
-                    customers. Having expertise in all stacks, we can deliver
-                    the solution you need and exactly how you need it.
+                    Immerse your audience in a web experience like never before.
+                    Our web designers promise a stellar performance and visual
+                    aesthetics, creating an extraordinary digital journey for
+                    your customers.
                   </p>
                 </div>
               </div>
@@ -127,7 +128,8 @@ const FeaturesTiles = ({
               style={{
                 background: "#ffff",
                 boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px",
-                margin: "16px 16px",
+                margin: "10px",
+                borderRadius: "20px",
               }}
             >
               <div className="tiles-item-inner">
@@ -142,12 +144,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Quality Assurance Services</h4>
+                  <h4 className="mt-10 mb-12">Quality Assurance Services</h4>
                   <p className="m-0 text-sm">
-                    Our seasoned and battle hardened QA Engineers are ready to
-                    test all aspects of your platform; functional, integration
-                    and useability. Promising to be your strategic quality
-                    partner throughout your transformation journey.
+                    Trust our seasoned QA Engineers to test every aspect of your
+                    platform - functional, integration, and usability. Be
+                    assured of quality throughout your transformation journey.
                   </p>
                 </div>
               </div>

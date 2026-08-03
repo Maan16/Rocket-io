@@ -31,3 +31,26 @@
 .site-content {
     flex: 1 0 auto;
 }
+
+
+.footer-content{
+	background: rgb(219,100,36);
+	height: 180px;
+	
+	.middle{
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+
+		.sections{
+			color: white;
+			display: flex;
+			justify-content: center;
+			padding: 2px;
+
+			.bet-links{
+				padding: 5px;
+			}
+		}
+	}
+}

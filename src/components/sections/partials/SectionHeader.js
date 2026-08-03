@@ -31,6 +31,7 @@ const SectionHeader = ({ className, data, children, tag, ...props }) => {
               <Component
                 className={classNames(
                   "mt-0",
+                  "p-20",
                   data.paragraph ? "mb-16" : "mb-0"
                 )}
               >

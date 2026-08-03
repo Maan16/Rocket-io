@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
+import Image from '../elements/Image';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -88,6 +89,14 @@ const Header = ({
           )}
         >
           {/* <Logo /> */}
+          <a href="http://rocket-io.com" >
+            <Image
+              src={require("./../../assets/images/Rockett.png")}
+              alt="Rocket"
+              width={120}
+              height={120}
+            />
+          </a>
           {!hideNav && (
             <>
               <button
@@ -107,7 +116,7 @@ const Header = ({
                 <div className="header-nav-inner">
                   <ul
                     className={classNames(
-                      "list-reset text-xs",
+                      "list-reset text-md",
                       navPosition && `header-nav-${navPosition}`
                     )}
                   >
@@ -121,16 +130,9 @@ const Header = ({
                         Contact Us
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/about-us" onClick={closeMenu}>
-                        About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/faqs" onClick={closeMenu}>
-                        FAQ's
-                      </Link>
-                    </li>
+                    {/* <li>
+                      <Link to="/about-us" onClick={closeMenu}>About Us</Link>
+                    </li> */}
                   </ul>
                 </div>
               </nav>

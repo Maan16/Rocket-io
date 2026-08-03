@@ -47,7 +47,13 @@ const About = ({
       <div className="container">
         <div className={innerClasses}>
           <div className="hero-content">
-          
+            <p className='para'>
+                We’re a team of enthusiastic tech experts determined to inflect
+                change within the digital landscape, a team from diverse
+                backgrounds that is always willing to come together, work with
+                the grit, transparency and proactivity needed to change the tech
+                landscape starting with you!
+              </p>
           </div>
         </div>
       </div>

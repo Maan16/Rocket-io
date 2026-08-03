@@ -31,7 +31,7 @@ const Contact = ({
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
     invertColor && 'invert-color',
-    className
+	className
   );
 
   const innerClasses = classNames(
@@ -50,20 +50,13 @@ const Contact = ({
 					<div className="hero-content mb-0 mt-0 center">
 						<div className="center-div">
 						<div className="calculator-heading">
-							<h3>Kindly fill the contact form</h3>
+							<h2 style={{color :"rgb(219,100,36)"}}>CONTACT FORM</h2>
 								<p>
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 								</p>
 						</div>
-						<div>
-							<div className="vehicle-name">
-								<div className="vehicle-fullname">
-								</div>
-								<div className="vehicle-trim"></div>
-							</div>
-						</div>
 						<Form className="" onFinish=''>
-							<div >
+							<div>
 								<label className="label-row">Name</label>
                 					<div className="item-row">
 									<Form.Item
